@@ -1,6 +1,6 @@
 class BasePage():
-    def __inint__(self, browser, url):
-        self.browseer = browser
+    def __init__(self, browser, url):
+        self.browser = browser
         self.url = url
     
     
